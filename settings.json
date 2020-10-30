@@ -32,7 +32,7 @@
         {
             "useAcrylic": true,
             "acrylicOpacity": 0.6,
-            "backgroundImage": "D:\\github\\windows-terminal\\picture\\2.jpg",
+            "backgroundImage": "C:\\Users\\guiming\\Pictures\\Camera Roll\\2.jpg",
             "backgroundImageStretchMode": "uniformToFill",
             "backgroundImageOpacity": 1.0,
             "colorScheme": "Snazzy"
@@ -48,6 +48,14 @@
                 "hidden": false
             },
             {
+                "guid": "{07b52e3e-de2c-5db4-bd2d-ba144ed6c273}",
+                "hidden": false,
+                "name": "Ubuntu-20.04",
+                "source": "Windows.Terminal.Wsl"
+                // https://www.bilibili.com/video/BV1LA411n7BK?from=search&seid=18339078146010921914
+                // sudo /etc/init.d/xrdp start
+            },
+            {
                 // Make changes here to the cmd.exe profile.
                 "guid": "{0caa0dad-35be-5f56-a8ff-afceeeaa6101}",
                 "name": "Command Prompt",
@@ -59,30 +67,26 @@
                 "hidden": false,
                 "name": "Azure Cloud Shell",
                 "source": "Windows.Terminal.Azure"
-            },
-            {
-                 // Make changes here to the git-bash.exe profile
-                 "guid": "{12a5517e-7758-458a-adf1-c3cadeda9ac8}",
-                 "name": "Git Bash",
-                 "commandline": "D:\\Programs\\code\\Git\\bin\\bash.exe",
-                 "hidden": false
-            },
-            {
-                "guid": "{da0d1a9a-79de-403f-afe8-9f2353033a7b}",
-                "name": "VPS1",
-                "commandline": "powershell.exe ssh -p 22 caiyc20@166.111.76.15"
-            },
+            }
+            // ,
+            // {
+            //      // Make changes here to the git-bash.exe profile
+            //      "guid": "{12a5517e-7758-458a-adf1-c3cadeda9ac8}",
+            //      "name": "Git Bash",
+            //      "commandline": "D:\\Programs\\code\\Git\\bin\\bash.exe",
+            //      "hidden": false
+            // },
+            // {
+            //     "guid": "{da0d1a9a-79de-403f-afe8-9f2353033a7b}",
+            //     "name": "VPS1",
+            //     "commandline": "powershell.exe ssh -p 22 caiyc20@166.111.76.15"
+            // },
             // {
             //     "guid": "{da0d1a9a-79de-403f-afe8-9f2353033a7b}",
             //     "name": "VPS2",
             //     "commandline": "powershell.exe ssh -p 22 ub18@172.16.111.255"
             // },
-            {
-                "guid": "{07b52e3e-de2c-5db4-bd2d-ba144ed6c273}",
-                "hidden": false,
-                "name": "Ubuntu-20.04",
-                "source": "Windows.Terminal.Wsl"
-            }
+
         ]
     },
 
