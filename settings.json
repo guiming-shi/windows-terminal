@@ -66,6 +66,22 @@
                  "name": "Git Bash",
                  "commandline": "D:\\Programs\\code\\Git\\bin\\bash.exe",
                  "hidden": false
+            },
+            {
+                "guid": "{da0d1a9a-79de-403f-afe8-9f2353033a7b}",
+                "name": "VPS1",
+                "commandline": "powershell.exe ssh -p 22 caiyc20@166.111.76.15"
+            },
+            // {
+            //     "guid": "{da0d1a9a-79de-403f-afe8-9f2353033a7b}",
+            //     "name": "VPS2",
+            //     "commandline": "powershell.exe ssh -p 22 ub18@172.16.111.255"
+            // },
+            {
+                "guid": "{07b52e3e-de2c-5db4-bd2d-ba144ed6c273}",
+                "hidden": false,
+                "name": "Ubuntu-20.04",
+                "source": "Windows.Terminal.Wsl"
             }
         ]
     },
